@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    list-style-type: none;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+    transition: all 250ms ease-in-out;
+    /* outline: 2px solid red; */
+}
+
+.h-100vh {
+    min-height: 100vh;
+}
+
+.z-index_-1 {
+    z-index: -1;
+}
+
+.bg_img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.post {
+    max-width: 400px;
+}
